@@ -4,15 +4,14 @@
     <title>ParsoTest</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTUhPCIxNnIYg0Uq4_qy80pkvXS_xAUc0" async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" integrity="sha512-s+xg36jbIujB2S2VKfpGmlC3T5V2TF3lY48DX7u2r9XzGzgPsa6wTpOQA7J9iffvdeBN0q9tKzRxVxw1JviZPg==" crossorigin="anonymous"></script>
   </head>
-
   <body>
-     <div class="container">
-	     <%= yield %>
-      </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTUhPCIxNnIYg0Uq4_qy80pkvXS_xAUc0&callback=myMap"></script>
+    <div>
+      <%= yield %>
+    </div>
   </body>
 </html>

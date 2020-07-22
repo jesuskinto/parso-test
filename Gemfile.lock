@@ -76,7 +76,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
-    connection_pool (2.2.1)
+    connection_pool (2.2.3)
     crass (1.0.4)
     erubi (1.7.1)
     execjs (2.7.0)
@@ -213,7 +213,7 @@ DEPENDENCIES
   pg
   puma (~> 3.11)
   rails (~> 5.2.0)
-  react-rails
+  react-rails (= 2.4.3)
   sass-rails (~> 5.0)
   selenium-webdriver
   spring
@@ -227,4 +227,4 @@ RUBY VERSION
    ruby 2.4.1p111
 
 BUNDLED WITH
-   1.15.4
+   1.17.3
