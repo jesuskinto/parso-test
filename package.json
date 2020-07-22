@@ -1,10 +1,5 @@
 {
   "name": "parso-test",
   "private": true,
-  "dependencies": {
-    "babel-polyfill": "^6.26.0",
-    "chart.js": "^2.9.3",
-    "google-map-react": "^1.1.7",
-    "react-chartjs-2": "^2.9.0"
-  }
+  "dependencies": {}
 }
